@@ -1,0 +1,10 @@
+.header-section {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+
+  @import "__speach/__speach.scss";
+  @import "__title/__title.scss";
+  @import "__tagline/__tagline.scss";
+}

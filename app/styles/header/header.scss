@@ -1,0 +1,11 @@
+.header {
+  width: 1170px;
+  position: fixed;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  @import "__menu/__menu.scss";
+  @import "__item/__item.scss";
+  @import "__link/__link.scss";
+}

@@ -1,0 +1,8 @@
+.works {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  @import "__title/__title.scss";
+  @import "__list/__list.scss";
+  @import "__item/__item.scss";
+}

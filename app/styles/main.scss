@@ -1,5 +1,23 @@
 // bower:scss
 // endbower
+body {
+  margin: 0;
+  padding: 0;
+}
 
+ul, ol, p, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
+@import "header/header.scss";
 @import "container/container.scss";
-@import "block/block.scss";
+@import "promo/promo.scss";
+@import "header-section/header-section.scss";
+@import "works/works.scss";
+@import "job/job.scss";

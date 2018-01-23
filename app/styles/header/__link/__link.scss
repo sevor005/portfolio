@@ -1,0 +1,23 @@
+&__link {
+  $linkColor: #56d6b6;
+  $linkHoverColor: #777;
+
+  color: $linkColor;
+  transition: all .2s;
+  
+  &:hover {
+    color: $linkHoverColor;
+    border-bottom: 2px solid $linkHoverColor;
+  }
+  
+  &_state_active {
+    border-bottom: 2px solid $linkHoverColor;
+    color: $linkHoverColor;
+    pointer-events: none;
+
+    &:hover {
+      text-decoration: none;
+      color: $linkHoverColor;
+    }
+  }
+}
