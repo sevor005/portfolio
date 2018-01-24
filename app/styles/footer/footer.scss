@@ -1,0 +1,9 @@
+.footer {
+  background-color: #2F2F2F;
+  color: #fff;
+  height: 150px;
+
+  @import "__container/__container.scss";
+  @import "__text/__text.scss";
+  @import "__link/__link.scss";
+}

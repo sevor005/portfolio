@@ -1,0 +1,10 @@
+&_state_active {
+  border-bottom: 2px solid $linkHoverColor;
+  color: $linkHoverColor;
+  pointer-events: none;
+
+  &:hover {
+    text-decoration: none;
+    color: $linkHoverColor;
+  }
+}

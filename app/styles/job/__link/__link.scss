@@ -1,0 +1,14 @@
+&__link {
+  display: block;
+  width: 155px;
+  height: 44px;
+  background: url("../images/githab.png") center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

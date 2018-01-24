@@ -1,0 +1,9 @@
+&__link {
+  color: #cec8c8;
+
+  &:hover {
+    color: #7e7c7c;
+  }
+
+  @import "_mode_logo/_mode_logo.scss";
+}

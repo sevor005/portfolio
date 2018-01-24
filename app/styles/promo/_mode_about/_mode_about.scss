@@ -1,12 +1,8 @@
-.promo {
+&_mode_about {
   background: url("../images/back.jpg") no-repeat;
   min-height: 650px;
   background-size: cover;
   background-position: 50% 75%;
   padding: 200px 20px 0;
   box-sizing: border-box;
-
-  @import "__container/__container.scss";
-  @import "__menu/__menu.scss";
-  @import "_mode_about/_mode_about.scss"
 }

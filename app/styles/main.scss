@@ -1,5 +1,6 @@
 // bower:scss
 // endbower
+
 body {
   margin: 0;
   padding: 0;
@@ -21,3 +22,6 @@ a, a:hover, a:active, a:visited {
 @import "header-section/header-section.scss";
 @import "works/works.scss";
 @import "job/job.scss";
+@import "wrapper/wrapper.scss";
+@import "footer/footer.scss";
+@import "about/about.scss";
